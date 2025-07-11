@@ -351,6 +351,10 @@ body {
   border-radius: 50%;
 }
 
+.container2{
+  background-color: #fafafa;
+}
+
 .revplus {
   display: flex;
   flex-direction: row;
@@ -368,7 +372,7 @@ body {
 }
 
 .support_right {
-  padding: 64px 99px;
+  padding: 64px 99px 64px 0;
   align-items: center;
   display: flex;
 }
@@ -671,10 +675,15 @@ body {
     display: none;
   }
   .container1 {
+    margin-top: 100px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    transform: scale(1.3);
+  }
+  .container{
+    transform: scale(1.8);
+    margin:200px 0;
   }
   .c1_left {
     padding: 0;
@@ -687,7 +696,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
-    transform: scale(0.9);
+    transform: scale(1.2);
   }
   .c1image {
     width: 360px;
@@ -715,9 +724,6 @@ body {
     width: 12px;
     height: 16px;
   }
-  .filter {
-    margin: 10px 0 0 10px;
-  }
   .searchicon {
     height: 41px;
     width: 41px;
@@ -730,7 +736,7 @@ body {
     margin-bottom: 8px;
   }
   .apt {
-    padding: 16px;
+    padding:0 16px;
     gap: 0;
   }
   .apt1 {
@@ -747,20 +753,24 @@ body {
   }
   .bullet {
     transform: scale(0.8);
-    padding: 10px 0 0;
+    padding: 10px 0 10px;
   }
   .event {
     align-items: center;
     flex-direction: column;
-    transform: scale(0.8);
+  }
+  .container2{
+    margin-top: 200px;
+    transform:scale(1.8);
   }
   .arrow_left {
-    left: 35%;
+    left: 37%;
   }
   .arrow_right {
-    right: 35%;
+    right: 37%;
   }
   .container3 {
+    margin-top: 200px;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -774,6 +784,10 @@ body {
     padding: 10px;
     flex-wrap: wrap;
   }
+  .support_right{
+    padding-right: 0;
+    transform: scale(1.5);
+  }
   .city_bullets {
     display: flex;
     z-index: 15;
@@ -782,6 +796,7 @@ body {
     bottom: 16px;
   }
   .cities {
+    transform: scale(2.3);
     justify-content: center;
     align-items: center;
     position: relative;
@@ -807,9 +822,13 @@ body {
     height: 530px;
     justify-content: center;
   }
+  .container4{
+    margin-top: 300px;
+  }
   .map {
+    margin-top: 300px;
     background: url(image/map2.png);
-    height: 780px;
+    height: 1200px;
     background-size: cover;
   }
   .add {
